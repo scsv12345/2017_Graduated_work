@@ -40,7 +40,7 @@ public class MainActivity extends Activity{
         setContentView(R.layout.activity_main);
 
 
-       /* 레이아웃의 컴포넌트를 가져옵니다.*/
+       /* 레이아웃의 컴포넌트를 가져옵니다.*////
         tv = (TextView) findViewById(R.id.textVeiw);
         bt = (ImageButton) findViewById(R.id.button);
         user_bt = (ImageButton) findViewById(R.id.user_button);
