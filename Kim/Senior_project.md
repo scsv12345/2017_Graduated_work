@@ -23,5 +23,7 @@
 - 적절한 USE CASE 의 대화를 입력으로 받아 STRING (INPUT) 으로 변환한다.
 - INPUT을 파싱하여, 몇번의 USE CASE 인지 ( CASE ) , 장소 데이터 ( VIA 1 ... ) 를 얻는다.
 - CASE와 VIA 1 ... 를 일본어로 변환하고 USE CASE에 따라 다음을 적용한다.
-  1) USE CASE가 1,2,3 :
-  2) USE CASE가 4,5
+  1) USE CASE가 1,2,3 : 구글 맵 API를 통해 해당 장소와 접근 방법 반환
+  2) USE CASE가 4,5 : VIA를 일본 검색 엔진에 대입하고 데이터를 파싱
+
+- 각 USE CASE에 적절한 화면을 생성해서 보여준다.
